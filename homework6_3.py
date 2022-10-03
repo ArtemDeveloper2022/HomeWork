@@ -3,8 +3,8 @@
 spis = []
 
 while True:
-    s = input("Введите число")
-    if s != 'y' :
+    s = input("Введите число, что бы закончить нажмите 'n'")
+    if s != 'n' :
         spis.append(s)
     else:
         break
